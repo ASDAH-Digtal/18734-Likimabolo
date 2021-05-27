@@ -4,10 +4,10 @@ Date:
 */
 
 :root{
-    --main-bg-colour: #05445e;
-    --sec-bg-colour: #189ab4;
-    --main-colour: #d4f1f4;
-    --sec-colour: #75e6da;
+    --main-bg-colour: #7EA6E0;
+    --sec-bg-colour: #A680B8;
+    --main-colour: #7EA6E0;
+    --sec-colour: #A680B8;
 }
 
 .container{ /*DO NOT REMOVE OR EDIT*/
@@ -23,48 +23,66 @@ Date:
 
 .container > div{ /*DO NOT REMOVE*/
     padding: 10px;
+    background-color: #000;
 }
 
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
+    text-align: center;
+    background-color:white ;
+    color: white;
 }
 
 .main{ /*DO NOT REMOVE*/
     grid-area: main;
-    background-color: var(--sec-bg-colour);
+    
     color: var(--main-colour);
 }
 
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
-    background-color: var(--main-colour);
+    background-color:white;
 }
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
-    background-color: var(--main-colour);
+    background-color:white;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
+    background-color:#000000;
+    color:white;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
+    text-align: center;
+    color:white;
+    
+
     
 }
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
+    background-color:#000000;
 }
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+body {
+  background-color: #000;
 }

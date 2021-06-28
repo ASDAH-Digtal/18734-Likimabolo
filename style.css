@@ -22,15 +22,10 @@ Date:
     "footer footer footer";
 }
 
-.container > div{ /*DO NOT REMOVE*/
-    padding: 10px;
-    background-color: #000;
-}
-
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
     text-align: center;
-    background-color:white ;
+    background-color: #000 ;
     color: white;
     font-family: 'Great Vibes', cursive;
 }
@@ -43,8 +38,9 @@ Date:
 
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
-    background-color:white;
+    background-color:#000;
     font-family: 'Great Vibes', cursive;
+   
 }
 
 .side2{ /*DO NOT REMOVE*/
@@ -87,6 +83,8 @@ Date:
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
     background-color:#000000;
+    text-align: center;
+  
 }
 
 .reference{ /*DO NOT REMOVE*/
